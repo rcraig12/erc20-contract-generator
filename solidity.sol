@@ -93,7 +93,7 @@ abstract contract Ownable is Context {
   }
 }
 
-contract TestTokenA is Context, Ownable, IERC20 {
+contract TestTokenA is Ownable, IERC20 {
 
   constructor () {
 
